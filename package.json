@@ -1,0 +1,36 @@
+{
+  "name": "moore-curve-cli",
+  "version": "1.0.0",
+  "description": "Print the Moore Curve to the console!",
+  "main": "./src/index.js",
+  "bin": {
+    "moore-curve-cli": "./src/cli.js"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spirometaxas/moore-curve-cli.git"
+  },
+  "scripts": {
+    "cli": "node ./src/cli.js"
+  },
+  "author": "Spiro Metaxas",
+  "license": "MIT",
+  "keywords": [
+    "Moore",
+    "Moore Curve",
+    "fractal",
+    "fractals",
+    "moore-curve-cli",
+    "cli",
+    "console",
+    "terminal",
+    "shell",
+    "unicode"
+  ],
+  "dependencies": {
+    "hilbert-curve-cli": "^1.1.0"
+  }
+}
