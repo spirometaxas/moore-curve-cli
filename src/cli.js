@@ -3,7 +3,7 @@ const moore = require('./index.js');
 
 const printUsage = function(showIntro) {
     if (showIntro) {
-        console.log(moore.create(4));
+        console.log(moore.create(3));
         console.log(' Print the Moore Curve to the console!');
     }
     console.log('\n' + 
