@@ -15,7 +15,7 @@ const printUsage = function(showIntro) {
                 ' Options:\n' + 
                 '   --closed, -c       Draw a closed Moore Curve\n' + 
                 '   --line=<line>      Draw using a specific line type: [bold|double|standard]\n' + 
-                '   --rotate=<rotate>  Rotate the fractal: [left|right|flip|standard]\n');
+                '   --rotate=<rotate>  Rotate the Moore Curve: [left|right|flip|standard]\n');
 }
 
 const getFlags = function(params) {
