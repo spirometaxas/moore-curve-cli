@@ -9,6 +9,7 @@ const printUsage = function(showIntro) {
     console.log('\n' + 
                 ' Usage:\n' + 
                 '   $ moore-curve-cli <n>\n' + 
+                '   $ moore-curve-cli <n> [options]\n' + 
                 '\n' +
                 '   <n> is the recursive step, a number greater than or equal to 1\n' + 
                 '\n' +
